@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+}
+h1 {
+  color: white;
+  /*font-family: "Courier New", Courier, monospace;*/
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 400%;
+}
+p1{
+
+  color: white;
+  /*font-family:"Comic Sans MS", cursive, sans-serif;*/
+}
+pre, p2, p3{
+  color: white;
+}
+div{
+  margin-top: 50px;
+}
+.navbar{
+  overflow: hidden;
+  background-color: #00bfff	;
+  position: sticky;
+  width: 100%;
+
+}
+a {
+  color: white;
+  text-decoration: underline;
+}
+.navbar a{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 12px 16px;
+  color: #3333cc;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: grey;
+}
+.navbar li{
+  display: inline-block;
+}
+ul{
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 140%;
+}
